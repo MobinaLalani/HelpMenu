@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.start
+{
+	font-family:'B Koodak';
+	height: 400px;
+	width:20%;
+	margin:23px;
+	float:left;
+	background-color:lavender;
+	position: relative;
+    border-radius : 5px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+
+}
+#border
+{
+	height:2px;
+	background-color : black;
+	width: 100%;
+}
+
+#Title
+{
+	font-family:'B Koodak';
+	text-align: center;
+	margin-bottom:100px;
+	margin-top: 100px;
+	font-size: 80px;
+
+}
+ .start img {
+	 font-family:'B Koodak';
+      position: absolute;
+      top: 0; /* Position at the top of the div */
+      left: 0; /* Position at the left of the div */
+      width: 100%; /* Ensure the image fills the div horizontally */
+      height: 60%; /* Adjust as needed */
+      object-fit: cover; /* Ensure the image fills the space without distortion */	 
+	  border-radius : 10px;
+	
+	 
+    }
+
+.start .content_Datail {
+	 font-family:"B Koodak";
+      position: absolute;
+      bottom:0; /* Position at the bottom of the div */
+       /* Position at the left of the div */
+      width: 100%;
+      padding-left:150px;
+      background-color: transparent;
+
+    }
+
+.content
+{
+ font-family:"B Koodak";
+  margin: auto;
+  width: 98%;
+  padding: 10px;
+  
+}
+.start  .content_Datail_Top
+{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  width: 100%;
+  background-color: transparent;
+
+}
+.main
+{
+	font:"B Koodak";
+}
+
+.shadow
+{
+	height: 400px;
+	width:20%;
+	margin:23px;
+	float:left;
+	background-color:lavender;
+	position: relative;
+    border-radius : 20px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+.shadow :hover
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a {
+  text-decoration: none;
+	color :black;
+}
+
+a :hover
+{
+	color :blue;
+}
+
+
+
